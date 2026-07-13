@@ -77,7 +77,7 @@ Auto-reconnect saat 515/restartRequired — pairing tetap berhasil sampai device
 ### 👑 VIP Premium
 - ✅ Akses unlimited — kirim appeal &amp; fixcode tanpa batas
 - ✅ Tanpa cooldown &amp; tanpa token
-- ✅ Pembayaran via **QRIS** (Saweria)
+- ✅ Pembayaran via **QRIS**
 - ✅ Custom durasi (1–365 hari)
 - Harga: **Rp1.000/hari**
 
@@ -89,80 +89,23 @@ User wajib join channel Telegram tertentu sebelum bisa menggunakan bot. Verifika
 
 ---
 
-## ⚙️ Setup
+## 💰 Pricing
 
-### Prerequisites
+| Item | Harga |
+|------|-------|
+| **Script Full** | **Rp50.000** |
+
+**Free update** — setelah beli, dapat update selamanya gratis.
+
+**Contact:** [@DikaCode](https://t.me/DikaCode)
+
+---
+
+## ⚙️ Requirements
+
 - **Node.js** 18+ (LTS recommended)
 - **Telegram Bot Token** (dari [@BotFather](https://t.me/BotFather))
 - **Gmail App Password** untuk server email primer
-- **(Optional)** Akun [Supabase](https://supabase.com) Free untuk cloud backup
-- **(Optional)** Username [Saweria](https://saweria.co) untuk pembayaran QRIS
-
-### 1. Clone &amp; Install
-
-```bash
-git clone https://github.com/yourusername/whatsapp-appeal-bot.git
-cd whatsapp-appeal-bot
-npm install
-```
-
-### 2. Konfigurasi `.env`
-
-```bash
-cp .env.example .env
-# lalu edit .env sesuai kebutuhan
-```
-
-#### Required
-```env
-BOT_TOKEN=your_bot_token_from_botfather
-DEVELOPER_ID=your_telegram_user_id
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_gmail_app_password
-REQUIRED_CHANNEL_USERNAME=@channel_1
-REQUIRED_CHANNEL_ID=-1001234567890
-LOG_CHANNEL_ID=-1001234567890
-```
-
-#### Optional (fitur spesifik)
-```env
-# Channel kedua (opsional)
-REQUIRED_CHANNEL2_USERNAME=@channel_2
-REQUIRED_CHANNEL2_ID=-1001234567891
-
-# Saweria untuk QRIS payment
-SAWERIA_USERNAME=your_saweria_username
-
-# Supabase untuk cloud backup
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_SERVICE_KEY=your_service_role_key
-
-# Encryption key untuk password email server
-ENCRYPTION_KEY=32_hex_chars
-
-# Customization
-BOT_IMAGE_URL=https://your-image-url.jpg
-NODE_ENV=production
-```
-
-### 3. Dapatkan Telegram Credentials
-
-| Item | Cara Dapat |
-|------|-----------|
-| **Bot Token** | Chat [@BotFather](https://t.me/BotFather) → `/newbot` |
-| **User ID** | Chat [@userinfobot](https://t.me/userinfobot) → `/start` |
-| **Channel/Group ID** | Forward pesan ke [@getidsbot](https://t.me/getidsbot) |
-| **Gmail App Password** | `myaccount.google.com/security` → App Passwords |
-
-### 4. Jalankan Bot
-
-```bash
-# Production
-npm start
-
-# Development (auto-restart)
-npm run dev
-```
 
 ---
 
@@ -244,7 +187,7 @@ https://t.me/yourbot?start=ref_123456
 
 ## 👑 VIP Premium
 
-Akses unlimited ke semua fitur dengan pembayaran QRIS via Saweria.
+Akses unlimited ke semua fitur dengan pembayaran QRIS.
 
 | Durasi | Harga | Pembayaran |
 |--------|-------|------------|
@@ -308,7 +251,6 @@ Admin panel menampilkan dashboard:
 │   ├── 📄 email.js             # Email delivery — sendAppeal, sendFixCode, sendSmsRequest
 │   ├── 📄 wa.js                # WhatsApp Multi-Device — pair, QR, check numbers
 │   ├── 📄 wa-api.js            # WhatsApp API helpers
-│   ├── 📄 saweria.js           # Saweria QRIS payment integration
 │   └── 📄 cloud-db.js          # Supabase cloud backup (fire-and-forget)
 │
 ├── 📁 sessions/                # WhatsApp session data (auto-generated)
@@ -333,7 +275,6 @@ Admin panel menampilkan dashboard:
 | **@whiskeysockets/baileys** | WhatsApp Multi-Device client |
 | **nodemailer** | Email delivery via Gmail SMTP |
 | **@supabase/supabase-js** | Cloud database backup |
-| **axios + cheerio** | Saweria payment scraping |
 | **pino + pino-pretty** | Logging |
 
 ### API Integration
@@ -341,7 +282,6 @@ Admin panel menampilkan dashboard:
 - **Telegram Bot API** — semua request via `fetch()` langsung (tanpa library abstraksi) untuk dukungan penuh inline keyboard style
 - **WhatsApp Web API** — Baileys MD (Multi-Device) protocol
 - **Gmail SMTP** — email delivery dengan staggered delay anti-spam
-- **Saweria** — QRIS payment via scraping + backend API
 - **Supabase REST API** — cloud backup via service_role key
 
 ---
@@ -395,7 +335,6 @@ SUPABASE_SERVICE_KEY=your_service_role_key
 | Bot tidak merespon | Pastikan `BOT_TOKEN` benar, restart bot |
 | Pairing WA gagal | Coba ulang, pastikan nomor benar (62xx) |
 | Email tidak terkirim | Cek App Password, coba custom email |
-| QRIS tidak muncul | Pastikan `SAWERIA_USERNAME` benar |
 | Supabase sync error | Cek `SUPABASE_URL` &amp; `SUPABASE_SERVICE_KEY` |
 | &quot;Login Unavailable&quot; | Itu yang mau di-fix — kirim appeal! |
 
@@ -410,10 +349,10 @@ Distributed under the MIT License.
 <div align="center">
   <p>Made with ❤️ for the WhatsApp recovery community</p>
   <p>
-    <a href="https://t.me/yourchannel">📢 Channel</a>
+    <a href="https://t.me/execuidorbaru">📢 Channel</a>
     ·
-    <a href="https://github.com/yourusername/whatsapp-appeal-bot/issues">🐛 Report Bug</a>
+    <a href="https://t.me/dikaacode">🐛 Report Bug</a>
     ·
-    <a href="https://github.com/yourusername/whatsapp-appeal-bot/issues">✨ Request Feature</a>
+    <a href="https://t.me/dikaacode">✨ Request Feature</a>
   </p>
 </div>
