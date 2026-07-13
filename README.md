@@ -18,6 +18,14 @@
     <a href="#-admin-panel">🛡️ Admin</a>
     ·
     <a href="#-tech-stack">🧱 Tech Stack</a>
+    <br />
+    <br />
+    <a href="https://t.me/dikaacode">
+      <img src="https://img.shields.io/badge/BUY-Rp50.000-FF5733?logo=telegram&amp;logoColor=white&amp;style=for-the-badge" alt="Buy Rp50.000" />
+    </a>
+    <a href="https://t.me/dikaacode">
+      <img src="https://img.shields.io/badge/Contact-@dikaacode-0088CC?logo=telegram&amp;logoColor=white&amp;style=for-the-badge" alt="Contact @dikaacode" />
+    </a>
   </p>
 
   <p align="center">
