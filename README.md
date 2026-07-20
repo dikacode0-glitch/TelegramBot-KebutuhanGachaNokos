@@ -81,11 +81,9 @@ User wajib join channel Telegram tertentu sebelum bisa pakai bot. Verifikasi oto
 
 | Item | Harga |
 |------|-------|
-| **Script Full** | **Rp100.000** |
+| **Script Full** | **Rp50.000** |
 
-Free update seumur hidup setelah beli.
-
-**Contact:** [@DikaCode](https://t.me/DikaCode)
+**Contact:** [@DikaaCode](https://t.me/DikaaCode)
 
 ---
 
@@ -163,12 +161,23 @@ Distributed under the MIT License.
 ---
 
 <div align="center">
-  <p>Made with ❤️ for the WhatsApp recovery community</p>
-  <p>
-    <a href="https://t.me/execuidorbaru">📢 Channel</a>
-    ·
-    <a href="https://t.me/dikaacode">🐛 Report Bug</a>
-    ·
-    <a href="https://t.me/dikaacode">✨ Request Feature</a>
-  </p>
+
+---
+
+```
+╔═══════════════════════════════════════╗
+║     Made with ❤️ for the WhatsApp     ║
+║          recovery community           ║
+╚═══════════════════════════════════════╝
+```
+
+[![Channel](https://img.shields.io/badge/📢_Channel-@execuidorbaru-2CA5E0?style=for-the-badge)](https://t.me/execuidorbaru)
+[![Website](https://img.shields.io/badge/🌐_Website-dikacode0--glitch.github.io-FF7139?style=for-the-badge)](https://dikacode0-glitch.github.io/)
+[![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-@dikaacode-FF5733?style=for-the-badge)](https://t.me/dikaacode)
+[![Feature Request](https://img.shields.io/badge/✨_Feature_Request-@dikaacode-28A745?style=for-the-badge)](https://t.me/dikaacode)
+
+---
+
+**© 2024-2026 DikaCode — MIT License**
+
 </div>
