@@ -1,187 +1,177 @@
+
 <div align="center">
 
-<!-- ============ 3D FLOATING HEADER ============ -->
-<img src="https://files.catbox.moe/ecvmlf.jpg" alt="Logo" width="130" height="130" 
-     style="border-radius: 30px; box-shadow: 0 20px 50px rgba(0,210,255,0.3); transform: perspective(600px) rotateY(10deg); transition: 0.4s;" 
-     onmouseover="this.style.transform='perspective(600px) rotateY(0deg) scale(1.05)'" 
-     onmouseout="this.style.transform='perspective(600px) rotateY(10deg)'" />
+<!-- HERO LOGO -->
+<img src="https://files.catbox.moe/ecvmlf.jpg" alt="Logo WhatsApp Recovery" width="140" height="140" style="border-radius: 28px; box-shadow: 0px 8px 24px rgba(37, 211, 102, 0.2); border: 2px solid #25D366;" />
 
-<h1 align="center" style="font-size: 3em; font-weight: 900; background: linear-gradient(135deg, #00d2ff, #3a7bd5, #ff6b6b, #feca57); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 30px rgba(0,210,255,0.5); letter-spacing: -1px;">
-  🤖 WhatsApp Recovery Bot
-</h1>
+# 🌌 WHATSAPP RECOVERY BOT
+### ⚡ *The Ultimate Digital Assistant for WhatsApp Account Verification & Recovery* ⚡
 
-<p align="center" style="font-size: 1.1em; color: #b0c4de; background: rgba(255,255,255,0.05); backdrop-filter: blur(15px); border-radius: 60px; padding: 15px 30px; max-width: 700px; margin: 20px auto; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 15px 30px rgba(0,0,0,0.4);">
-  <strong style="color: white; text-shadow: 0 0 15px cyan;">Telegram Bot supercharged untuk Recovery & Verifikasi Akun WhatsApp.</strong>
-  <br/>
-  <span style="font-size: 0.9em;">Kirim appeal massal • fix code OTP • cek nomor WA • kelola akun — langsung dari Telegram dengan UI imersif.</span>
+<p align="center">
+  <a href="#-key-features">✨ Fitur Utama</a> •
+  <a href="#-system-architecture">⚙️ Arsitektur</a> •
+  <a href="#-quick-start">🚀 Panduan Cepat</a> •
+  <a href="#-pricing">💎 Lisensi</a> •
+  <a href="#-security">🛡️ Keamanan</a>
 </p>
 
-<br/>
-
-<!-- ============ 3D GLASS BUTTONS ============ -->
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<!-- PREMIUM BADGES -->
+<p align="center">
   <a href="https://t.me/dikaacode">
-    <img src="https://img.shields.io/badge/🛒_BUY_NOW-Rp100.000-FF5733?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e&color=ff6b6b&shadow=0 0 25px #ff6b6b" 
-         style="transform: skewX(-5deg); border-radius: 15px; transition: 0.3s;" 
-         onmouseover="this.style.transform='skewX(-5deg) scale(1.1)'" 
-         onmouseout="this.style.transform='skewX(-5deg) scale(1)'" />
+    <img src="https://img.shields.io/badge/⚡_PREMIUM_ACCESS-Rp100.000-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Beli Bot" />
   </a>
   <a href="https://t.me/dikaacode">
-    <img src="https://img.shields.io/badge/💬_CHAT_NOW-@dikaacode-0088CC?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e&color=00d2ff&shadow=0 0 25px #00d2ff" 
-         style="transform: skewX(5deg); border-radius: 15px; transition: 0.3s;" 
-         onmouseover="this.style.transform='skewX(5deg) scale(1.1)'" 
-         onmouseout="this.style.transform='skewX(5deg) scale(1)'" />
+    <img src="https://img.shields.io/badge/📥_DEVELOPER-@DikaaCode-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Developer" />
   </a>
-</div>
+</p>
 
-<br/>
-
-<!-- ============ NEON TECH BADGES ============ -->
-<p align="center" style="background: rgba(0,0,0,0.3); backdrop-filter: blur(10px); padding: 15px; border-radius: 50px; display: inline-flex; flex-wrap: wrap; gap: 10px; border: 1px solid rgba(255,255,255,0.2);">
-  <img src="https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/WhatsApp-Baileys-25D366?logo=whatsapp&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Telegram-Bot_API-2CA5E0?logo=telegram&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Email-SMTP-EA4335?logo=gmail&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Payment-QRIS-FF5722?logo=react&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Database-Supabase-3ECF8E?logo=supabase&logoColor=white&style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square&labelColor=0d1117" />
+<!-- TECH BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Runtime-Node.js_18%2B-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Engine-Baileys_MD-25D366?style=flat-square&logo=whatsapp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Interface-Telegram_API-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+  <img src="https://img.shields.io/badge/SMTP-Nodemailer_Secure-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 </p>
 
 </div>
 
-<br/>
-<br/>
+---
 
-<!-- ============ 3D FEATURES GRID ============ -->
-<div align="center">
-  <h2 style="font-size: 2.2em; font-weight: 800; margin-bottom: 30px; background: linear-gradient(to right, white, #00d2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-    ✨ THE ULTIMATE TOOLKIT ✨
-  </h2>
-</div>
+## 🌌 SYSTEM ARCHITECTURE (3D FLOW)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; perspective: 1000px;">
+graph TD
+    User([👤 User / Client]) -->|Kirim Perintah / Data| Telegram[🤖 Telegram Bot API]
+    Telegram -->|Proses Input| Core[💻 Node.js Engine]
+    Core -->|1. Request OTP / Pairing| WA[💬 WhatsApp Web API / Baileys]
+    Core -->|2. Kirim Appeal / Bypass| SMTP[📧 Gmail SMTP Servers]
+    Core -->|3. Validasi & Simpan| DB[(☁️ Supabase / MongoDB)]
+    
+    style User fill:#1F2937,stroke:#3B82F6,stroke-width:2px;
+    style Telegram fill:#1E3A8A,stroke:#2563EB,stroke-width:2px;
+    style Core fill:#111827,stroke:#10B981,stroke-width:3px;
+    style WA fill:#064E3B,stroke:#059669,stroke-width:2px;
+    style SMTP fill:#7F1D1D,stroke:#DC2626,stroke-width:2px;
+    style DB fill:#312E81,stroke:#6366F1,stroke-width:2px;
 
-  <!-- Card 1: Email -->
-  <div style="background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(0,0,0,0.2)); backdrop-filter: blur(20px); border-radius: 25px; padding: 25px; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px rgba(0,210,255,0.1); transform: rotateY(2deg) rotateX(1deg); transition: 0.3s;">
-    <h3 style="color: #00d2ff; font-size: 1.5em; margin-bottom: 15px; text-shadow: 0 0 20px rgba(0,210,255,0.5);">📧 Email Bomb Arsenal</h3>
-    <ul style="color: #c0c0d0; list-style: none; padding: 0; text-align: left;">
-      <li style="margin: 10px 0;">⚡ <strong>Fix Login Unavailable</strong> — 60+ alamat support</li>
-      <li style="margin: 10px 0;">⏳ <strong>Fix Code 1 Jam</strong> — bypass “Try Again”</li>
-      <li style="margin: 10px 0;">📨 <strong>Request SMS Code</strong> — paksa OTP via SMS</li>
-    </ul>
-    <p style="color: #ff6b6b; font-size: 0.85em; margin-top: 15px; background: rgba(255,107,107,0.1); padding: 5px 10px; border-radius: 10px;">🔒 Staggered delivery + 5 template acak anti-spam</p>
-  </div>
+✨ KEY FEATURES
 
-  <!-- Card 2: WA Checker -->
-  <div style="background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(0,0,0,0.2)); backdrop-filter: blur(20px); border-radius: 25px; padding: 25px; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px rgba(0,255,100,0.1); transform: rotateY(-2deg) rotateX(1deg); transition: 0.3s;">
-    <h3 style="color: #25D366; font-size: 1.5em; margin-bottom: 15px; text-shadow: 0 0 20px rgba(37,211,102,0.5);">📱 Pro Checker</h3>
-    <ul style="color: #c0c0d0; list-style: none; padding: 0; text-align: left;">
-      <li style="margin: 10px 0;">🔗 <strong>Pair Device</strong> — pairing code, bukan QR!</li>
-      <li style="margin: 10px 0;">📊 <strong>Cek Nomor + Bio</strong> — info lengkap</li>
-      <li style="margin: 10px 0;">🗂️ <strong>Batch Check</strong> — upload .txt, proses ratusan</li>
-    </ul>
-  </div>
+🪐 1. Layanan Email Bypass (SMTP Integration)
 
-  <!-- Card 3: VIP -->
-  <div style="background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(0,0,0,0.2)); backdrop-filter: blur(20px); border-radius: 25px; padding: 25px; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px rgba(255,215,0,0.1); transform: rotateY(2deg) rotateX(-1deg); transition: 0.3s;">
-    <h3 style="color: #FFD700; font-size: 1.5em; margin-bottom: 15px; text-shadow: 0 0 20px rgba(255,215,0,0.5);">👑 VIP Universe</h3>
-    <ul style="color: #c0c0d0; list-style: none; padding: 0; text-align: left;">
-      <li style="margin: 10px 0;">♾️ Akses unlimited, tanpa batas</li>
-      <li style="margin: 10px 0;">⚡ Zero cooldown & token</li>
-      <li style="margin: 10px 0;">💳 Pembayaran <strong>QRIS otomatis</strong></li>
-      <li style="margin: 10px 0;">🎁 Custom durasi 1–365 hari / permanen</li>
-    </ul>
-  </div>
+Sistem pengiriman banding otomatis yang cerdas dengan rotasi server terenkripsi.
 
-</div>
+  - ⚡ Fix Login Unavailable: Mengirimkan dokumen banding (appeal) secara
+    simultan ke 60+ alamat email dukungan resmi WhatsApp.
+  - 🕒 Fix Code 1 Jam: Mengatasi masalah penundaan kode OTP ("Try Again in 1
+    Hour") dengan laporan delivery failure otomatis.
+  - 📥 Request SMS Code: Memaksa sistem pengirim WhatsApp untuk mengirimkan
+    verifikasi via SMS sebagai pengganti panggilan suara (Voice Call).
+  - Sistem Pengiriman: Menggunakan teknologi Staggered Delivery, CC Rotation,
+    dan 5+ Variasi Template Dinamis guna meminimalisir deteksi spam.
 
-<br/>
-<br/>
+📱 2. WhatsApp Checker & Linkage
 
-<!-- ============ 3D TECH STACK SHOWCASE ============ -->
-<div align="center" style="background: linear-gradient(135deg, rgba(0,0,0,0.4), rgba(10,25,50,0.6)); backdrop-filter: blur(20px); border-radius: 40px; padding: 40px; margin: 30px 0; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 30px 50px rgba(0,0,0,0.5);">
-  <h2 style="font-size: 2em; font-weight: 800; color: white; margin-bottom: 25px;">🧱 DIGITAL STACK 🧱</h2>
-  
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #339933;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #339933;">Node.js 18+</span><br/>
-      <span style="color: #aaa;">Runtime</span>
-    </div>
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #25D366;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #25D366;">Baileys MD</span><br/>
-      <span style="color: #aaa;">WA Multi-Device</span>
-    </div>
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #2CA5E0;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #2CA5E0;">Telegram API</span><br/>
-      <span style="color: #aaa;">Bot Controller</span>
-    </div>
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #EA4335;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #EA4335;">Nodemailer</span><br/>
-      <span style="color: #aaa;">Email Delivery</span>
-    </div>
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #3ECF8E;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #3ECF8E;">Supabase</span><br/>
-      <span style="color: #aaa;">Cloud Backup</span>
-    </div>
-    <div style="background: rgba(255,255,255,0.08); border-radius: 20px; padding: 15px 20px; border-top: 3px solid #47A248;">
-      <span style="font-size: 1.1em; font-weight: bold; color: #47A248;">MongoDB</span><br/>
-      <span style="color: #aaa;">Atlas DB</span>
-    </div>
-  </div>
+Integrasi langsung ke protokol web WhatsApp tanpa repot.
 
-  <div style="margin-top: 30px; background: rgba(255,255,255,0.05); border-radius: 25px; padding: 15px; border: 1px dashed rgba(255,255,255,0.2);">
-    <p style="color: #b0c4de; font-family: monospace; font-size: 1em;">
-      📡 <strong>API Integrations:</strong> Telegram Bot API | WhatsApp Web Baileys MD | Gmail SMTP (Staggered Anti-Spam) | Supabase REST | MongoDB Atlas
-    </p>
-  </div>
-</div>
+  - 🔑 Pair Device: Menghubungkan nomor WhatsApp target menggunakan Pairing Code
+    langsung dari bot (tanpa perlu pemindaian QR Code).
+  - 🔍 Check Number: Memeriksa status keaktifan nomor pada jaringan WhatsApp
+    beserta informasi Bio terbaru secara real-time.
+  - 📂 Bulk/Batch Check: Memungkinkan unggahan berkas berkstensi .txt berisi
+    ratusan nomor untuk diperiksa secara massal dan instan.
 
-<br/>
+🫂 3. Growth & Referral Engine
 
-<!-- ============ PRICING 3D FLOATING CARD ============ -->
-<div align="center" style="margin: 40px 0; transform: perspective(800px) rotateY(3deg);">
-  <div style="background: linear-gradient(145deg, #1e293b, #0f172a); border-radius: 30px; padding: 30px 50px; display: inline-block; border: 2px solid #ff6b6b; box-shadow: 0 0 40px rgba(255,107,107,0.3), 0 30px 40px rgba(0,0,0,0.5);">
-    <h2 style="color: #ff6b6b; font-size: 2em; margin-bottom: 20px; text-shadow: 0 0 20px #ff6b6b;">💰 PRICING</h2>
-    <div style="background: rgba(0,0,0,0.3); border-radius: 20px; padding: 20px; color: white;">
-      <p style="font-size: 1.3em; margin: 10px 0;">🧾 <strong>Script Full:</strong> <span style="color: #00d2ff; font-size: 1.5em;">Rp50.000</span></p>
-      <p style="font-size: 1.3em; margin: 10px 0;">🔄 <strong>Update:</strong> <span style="color: #25D366;">✅ Gratis seumur hidup</span></p>
-    </div>
-    <a href="https://t.me/DikaaCode" style="display: inline-block; margin-top: 20px; background: #2CA5E0; color: white; padding: 12px 35px; border-radius: 50px; font-weight: bold; text-decoration: none; box-shadow: 0 10px 25px rgba(44,165,224,0.4); transition: 0.3s;">📞 @DikaaCode</a>
-  </div>
-</div>
+Sistem rujukan organik untuk meningkatkan interaksi pengguna di dalam komunitas
+Anda.
 
-<br/>
+  - Ajak Teman: Hasilkan poin/token gratis secara otomatis setiap kali pengguna
+    baru mendaftar menggunakan tautan rujukan Anda.
+  - Struktur Poin: 1 Referral = +1 Appeal, +1 FixCode, dan +1 SMS Token.
+  - Instant Access: Token yang berhasil dikumpulkan dapat langsung digunakan
+    tanpa batasan waktu tunggu (cooldown).
 
-<!-- ============ SECURITY SHIELD ============ -->
-<div align="center" style="background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,50,100,0.4)); backdrop-filter: blur(10px); border-radius: 35px; padding: 25px; margin: 30px 0; border: 1px solid rgba(0,210,255,0.3);">
-  <h3 style="color: #00d2ff; text-shadow: 0 0 15px cyan; margin-bottom: 20px;">🔒 FORTRESS SECURITY</h3>
-  <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-    <span style="background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 30px; color: #ddd; font-weight: bold;">🔑 App Passwords Only</span>
-    <span style="background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 30px; color: #ddd; font-weight: bold;">🔐 AES-256-CBC Encrypted</span>
-    <span style="background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 30px; color: #ddd; font-weight: bold;">🚪 Channel Gate Verification</span>
-    <span style="background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 30px; color: #ddd; font-weight: bold;">⏱️ Sliding Window Rate Limit</span>
-  </div>
-</div>
+🛡️ CORE SECURITY PROTOCOLS
 
-<br/>
-<br/>
+Sistem dibangun dengan fokus utama pada keamanan data sensitif pengguna.
 
-<!-- ============ FOOTER 3D GRID ============ -->
-<div align="center" style="background: #0d1117; border-radius: 30px 30px 0 0; padding: 40px 20px; box-shadow: 0 -10px 30px rgba(0,0,0,0.5);">
-  <p style="font-size: 1.3em; font-weight: bold; color: white; text-shadow: 0 0 20px cyan;">Made with ❤️ for the WhatsApp recovery community</p>
-  
-  <div style="margin: 30px 0; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-    <a href="https://t.me/execuidorbaru">
-      <img src="https://img.shields.io/badge/📢_Channel-@execuidorbaru-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e" />
-    </a>
-    <a href="https://dikacode0-glitch.github.io/">
-      <img src="https://img.shields.io/badge/🌐_Website-Portfolio-FF7139?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e" />
-    </a>
-    <a href="https://t.me/dikaacode">
-      <img src="https://img.shields.io/badge/🐛_Report_Bug-@dikaacode-FF5733?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a2e" />
-    </a>
-  </div>
+| Sektor Keamanan            | Mekanisme Pertahanan                                                                                                        |
+| :------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| **🔑 Autentikasi Pengirim** | Menggunakan sistem *Gmail App Passwords* (mencegah penyimpanan kata sandi email asli).                                      |
+| **🔐 Enkripsi Data**        | Seluruh konfigurasi kredensial SMTP dienkripsi menggunakan metode algoritma **AES-256-CBC**.                                |
+| **🚪 Gerbang Komunitas**    | Fitur *Channel Gate* otomatis; mewajibkan pengguna bergabung ke kanal Telegram yang ditentukan sebelum dapat mengakses bot. |
+| **⏱️ Pembatas Akses**      | Penerapan batas ketat (*Sliding Window*) maksimal 3 permintaan per menit dengan *cooldown* global selama 1 jam.             |
+| **🕵️ Kebijakan Privasi**   | Penghapusan data nomor telepon serta berkas pengirim secara otomatis dari memori server setelah proses selesai.             |
 
-  <p style="color: #888; font-size: 0.9em; margin-top: 20px;">© 2024-2026 DikaCode — MIT License</p>
-  <p style="color: #555;">⚡ Designed with Digital & 3D Glassmorphism ⚡</p>
-</div>
+💰 PRICING PLANS
+
+┌──────────────────────────────────────────────────────────┐
+│                     💎 PRICING PLAN 💎                   │
+├────────────────────────────┬─────────────────────────────┤
+│        PRODUCT TYPE        │            PRICE            │
+├────────────────────────────┼─────────────────────────────┤
+│ 🧾 Full Script Code base   │ Rp50.000                    │
+│ 🔄 Lifetime Updates        │ FREE (Selamanya)            │
+│ ⚡ VIP Premium Bot Access  │ Mulai Rp100.000             │
+└────────────────────────────┴─────────────────────────────┘
+
+Untuk pembelian lisensi resmi atau akses premium otomatis via QRIS: 👉 Hubungi
+Developer Resmi: @DikaaCode 👈
+
+⚙️ QUICK START
+
+Persyaratan Minimum
+
+  - Runtime Environment: Node.js versi 18 (LTS) atau lebih tinggi.
+  - Akses Telegram: Kunci token bot yang dibuat melalui @BotFather.
+  - Kredensial Server: Akun Gmail aktif yang telah mengaktifkan fitur App
+    Password.
+
+Langkah Instalasi Cepat
+
+# 1. Kloning repositori & masuk ke direktori proyek
+git clone https://github.com/dikacode0-glitch/whatsapp-recovery-bot.git
+cd whatsapp-recovery-bot
+
+# 2. Pasang modul dependensi yang diperlukan
+npm install
+
+# 3. Konfigurasi berkas lingkungan Anda
+cp .env.example .env
+nano .env  # Isikan Token Bot, Supabase, & MongoDB URI Anda
+
+# 4. Jalankan aplikasi utama
+npm start
+
+💡 Panduan instalasi mendalam untuk platform VPS, Windows, macOS, maupun Termux
+tersedia pada dokumen HOWTOINSTALL.md.
+
+👑 CONTROL PANEL ADMIN (OWNER MENU)
+
+Fitur panel kendali khusus untuk administrator utama guna mengontrol
+fungsionalitas bot secara penuh.
+
+📁 PANEL ADMINISTRASI UTAMA
+├── 👑 MANAJEMEN PREMIUM
+│   ├── ➕ ADD PREMIUM       --> Memberikan lisensi VIP kepada pengguna
+│   ├── ➖ REM PREMIUM       --> Menarik kembali lisensi VIP
+│   └── 📋 LIST PREMIUM      --> Menampilkan seluruh daftar pengguna VIP aktif
+├── 📊 DATA & STATISTIK
+│   ├── 👥 ALL USERS         --> Melihat statistik total pendaftar unik
+│   └── 📢 BROADCAST         --> Mengirim pesan siaran massal ke seluruh pengguna
+├── 📧 MANAJEMEN SMTP EMAIL
+│   ├── 💝 ADD EMAIL         --> Menambahkan server SMTP email donatur baru
+│   ├── 📋 LIST EMAIL        --> Melihat daftar server SMTP aktif
+│   └── 🗑️ DELETE EMAIL      --> Menghapus server SMTP dari sistem
+└── 📱 MANAJEMEN PERANGKAT WA
+    ├── 📱 LIST DEVICE       --> Menampilkan daftar nomor WA yang terhubung
+    └── 🗑️ HAPUS DEVICE      --> Memutuskan sesi tautan nomor WA tertentu
+
+🤝 Didukung Oleh Komunitas
+
+Dibuat dengan dedikasi penuh bagi komunitas pemulihan akun digital WhatsApp.
+
+Kanal Telegram Situs Resmi
+
+© 2024-2026 DikaCode — MIT License
