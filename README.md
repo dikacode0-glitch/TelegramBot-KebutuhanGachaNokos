@@ -41,134 +41,196 @@
 
 ---
 
-## ✨ Features
+```
+╔══════════════════════════════════════════════════════════╗
+║                   ✨ FEATURES ✨                         ║
+╚══════════════════════════════════════════════════════════╝
+```
 
 ### 📧 Email Services
+
 | Fitur | Deskripsi |
-|-------|-----------|
+|:------|:----------|
 | **Fix Login Unavailable** | Kirim email appeal ke 60+ alamat support WhatsApp |
 | **Fix Code 1 Jam** | Atasi error "Try Again in 1 Hour" — kirim laporan OTP tidak terkirim |
 | **Request SMS Code** | Minta WhatsApp kirimkan SMS OTP (bukan Call) untuk verifikasi |
 
-Staggered delivery + CC rotation + 5+ template variasi agar terhindar dari spam detection.
+> 🚀 Staggered delivery + CC rotation + 5+ template variasi agar terhindar dari spam detection.
 
 ### 📱 WhatsApp Checker
+
 | Fitur | Deskripsi |
-|-------|-----------|
-| **Pair Device** | Hubungkan nomor WhatsApp via Pairing Code (bukan QR) |
+|:------|:----------|
+| **Pair Device** | Hubungkan nomor WhatsApp via **Pairing Code** (bukan QR) |
 | **Cek Nomor** | Periksa apakah nomor terdaftar di WhatsApp + lihat Bio |
 | **Batch Check** | Upload file `.txt` — periksa ratusan nomor sekaligus |
 
 ### 🎁 Referral Program
-- Dapatkan **token gratis** dengan mengajak teman
-- 1 referral = +1 Appeal, +1 FixCode, +1 SMS token
-- Token = akses instan tanpa cooldown
+
+| Fitur | Keuntungan |
+|:------|:-----------|
+| 🫂 **Ajak Teman** | Dapatkan token gratis dengan mengajak teman |
+| 🔄 **1 Referral** | +1 Appeal, +1 FixCode, +1 SMS token |
+| ⚡ **Akses Instan** | Token = akses tanpa cooldown |
 
 ### 👑 VIP Premium
-- ✅ Akses unlimited tanpa batas, cooldown, & token
-- ✅ Pembayaran via **QRIS** otomatis
-- ✅ Custom durasi 1–365 hari atau ♾️ permanen
+
+| Fitur | Status |
+|:------|:-------|
+| ✅ Akses unlimited tanpa batas | ✅ |
+| ✅ Tanpa cooldown & token | ✅ |
+| ✅ Pembayaran via **QRIS** otomatis | ✅ |
+| ✅ Custom durasi 1–365 hari atau ♾️ permanen | ✅ |
 
 ### 💝 Donasi Email
-Donasikan akun Gmail untuk jadi server pengirim tambahan. Diverifikasi otomatis via SMTP.
+
+> Donasikan akun Gmail kamu untuk jadi server pengirim tambahan.  
+> Diverifikasi otomatis via SMTP sebelum aktif.
 
 ### 🔐 Channel Verification
-User wajib join channel Telegram tertentu sebelum bisa pakai bot. Verifikasi otomatis via tombol **VERIFY**.
+
+> User wajib join channel Telegram tertentu sebelum bisa pakai bot.  
+> Verifikasi otomatis via tombol **VERIFY** — cepat & aman.
 
 ---
 
-## 💰 Pricing
-
-| Item | Harga |
-|------|-------|
-| **Script Full** | **Rp50.000** |
-
-**Contact:** [@DikaaCode](https://t.me/DikaaCode)
-
----
-
-## ⚙️ Quick Start
-
-```bash
-npm install     # Install dependencies
-npm start       # Start bot
+```
+╔══════════════════════════════════════════════════════════╗
+║                   💰 PRICING 💰                          ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
-> 💡 Lihat [HOWTOINSTALL.md](HOWTOINSTALL.md) untuk panduan instalasi lengkap di berbagai platform (VPS, Windows, macOS, Termux).
+<div align="center">
 
-### Requirements
-- **Node.js** 18+ (LTS)
-- **Telegram Bot Token** dari [@BotFather](https://t.me/BotFather)
-- **Gmail + App Password** untuk server email
+| Item | Harga |
+|:-----|:------|
+| **🧾 Script Full** | **Rp50.000** |
+| **🔄 Update** | ✅ Gratis seumur hidup |
+
+📞 **Contact:** [@DikaaCode](https://t.me/DikaaCode)
+
+</div>
 
 ---
 
-## 🛡️ Admin Panel
+```
+╔══════════════════════════════════════════════════════════╗
+║                  ⚙️ QUICK START ⚙️                      ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-Akses: `⚙️ ADMIN` (khusus owner/developer)
+<div align="center">
+
+```bash
+npm install     # Install dependencies 📦
+npm start       # Start bot 🚀
+```
+
+</div>
+
+> 💡 Lihat [**HOWTOINSTALL.md**](HOWTOINSTALL.md) untuk panduan instalasi lengkap di berbagai platform (VPS, Windows, macOS, Termux).
+
+### 📋 Requirements
+
+<div align="center">
+
+| Komponen | Keterangan |
+|:---------|:-----------|
+| 🟢 **Node.js** | 18+ (LTS) |
+| 🤖 **Telegram Bot Token** | Dari [@BotFather](https://t.me/BotFather) |
+| 📧 **Gmail + App Password** | Untuk server email |
+
+</div>
+
+---
+
+```
+╔══════════════════════════════════════════════════════════╗
+║                🛡️ ADMIN PANEL 🛡️                        ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+> Akses: `⚙️ ADMIN` (khusus owner / developer)
 
 | Menu | Fungsi |
-|------|--------|
-| **👑 ADD PREMIUM** | Beri akses premium ke user |
-| **👑 REM PREMIUM** | Cabut akses premium |
-| **📋 LIST PREMIUM** | Lihat semua user premium |
-| **👥 ALL USERS** | Statistik & daftar user |
-| **📢 BROADCAST** | Kirim pesan ke semua user |
-| **💝 ADD EMAIL** | Tambah server email donasi |
-| **📋 LIST EMAIL** | Lihat server email aktif |
-| **🗑 DELETE EMAIL** | Hapus server email |
-| **📱 LIST DEVICE** | Lihat device WA terpair |
-| **🗑 HAPUS DEVICE** | Hapus device WA |
-| **👑 ADD/REMOVE OWNER** | Kelola owner (dev-only) |
+|:-----|:-------|
+| 👑 **ADD PREMIUM** | Beri akses premium ke user |
+| 👑 **REM PREMIUM** | Cabut akses premium |
+| 📋 **LIST PREMIUM** | Lihat semua user premium |
+| 👥 **ALL USERS** | Statistik & daftar user |
+| 📢 **BROADCAST** | Kirim pesan ke semua user |
+| 💝 **ADD EMAIL** | Tambah server email donasi |
+| 📋 **LIST EMAIL** | Lihat server email aktif |
+| 🗑 **DELETE EMAIL** | Hapus server email |
+| 📱 **LIST DEVICE** | Lihat device WA terpair |
+| 🗑 **HAPUS DEVICE** | Hapus device WA |
+| 👑 **ADD/REMOVE OWNER** | Kelola owner (dev-only) |
 
 ---
 
-## 🧱 Tech Stack
+```
+╔══════════════════════════════════════════════════════════╗
+║                🧱 TECH STACK 🧱                          ║
+╚══════════════════════════════════════════════════════════╝
+```
 
 | Technology | Purpose |
-|-----------|---------|
-| **Node.js** | Runtime |
-| **node-telegram-bot-api** | Telegram Bot API wrapper |
-| **@whiskeysockets/baileys** | WhatsApp Multi-Device client |
-| **nodemailer** | Email delivery via Gmail SMTP |
-| **@supabase/supabase-js** | Cloud backup (PostgreSQL) |
-| **mongodb** | Cloud backup (MongoDB Atlas) |
-| **pino + pino-pretty** | Logging |
+|:-----------|:--------|
+| 🟢 **Node.js** | Runtime |
+| 🤖 **node-telegram-bot-api** | Telegram Bot API wrapper |
+| 💬 **@whiskeysockets/baileys** | WhatsApp Multi-Device client |
+| 📧 **nodemailer** | Email delivery via Gmail SMTP |
+| ☁️ **@supabase/supabase-js** | Cloud backup (PostgreSQL) |
+| 🍃 **mongodb** | Cloud backup (MongoDB Atlas) |
+| 📊 **pino + pino-pretty** | Logging |
 
-### API Integration
-- **Telegram Bot API** — semua request via `fetch()` langsung
-- **WhatsApp Web API** — Baileys MD (Multi-Device) protocol
-- **Gmail SMTP** — email delivery dengan staggered delay anti-spam
-- **Supabase REST API** — cloud backup via service_role key
-- **MongoDB Atlas** — cloud backup NoSQL via native driver
+### 🔗 API Integration
 
----
-
-## 🔒 Security
-
-- **App Passwords** — tidak pernah menyimpan password Gmail asli
-- **Encryption** — password email server di-enkripsi AES-256-CBC
-- **Channel Gate** — user wajib join channel sebelum akses bot
-- **Rate Limiting** — sliding window 3 request/menit + cooldown 1 jam
-- **Privacy** — nomor HP & email user dihapus dari chat setelah diproses
+- 🤖 **Telegram Bot API** — semua request via `fetch()` langsung
+- 💬 **WhatsApp Web API** — Baileys MD (Multi-Device) protocol
+- 📧 **Gmail SMTP** — email delivery dengan staggered delay anti-spam
+- ☁️ **Supabase REST API** — cloud backup via service_role key
+- 🍃 **MongoDB Atlas** — cloud backup NoSQL via native driver
 
 ---
 
-## 📄 License
+```
+╔══════════════════════════════════════════════════════════╗
+║                  🔒 SECURITY 🔒                          ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-Distributed under the MIT License.
+| Aspek | Detail |
+|:------|:-------|
+| 🔑 **App Passwords** | Tidak pernah menyimpan password Gmail asli |
+| 🔐 **Encryption** | Password email server di-enkripsi **AES-256-CBC** |
+| 🚪 **Channel Gate** | User wajib join channel sebelum akses bot |
+| ⏱️ **Rate Limiting** | Sliding window 3 request/menit + cooldown 1 jam |
+| 🕵️ **Privacy** | Nomor HP & email user dihapus dari chat setelah diproses |
+
+---
+
+```
+╔══════════════════════════════════════════════════════════╗
+║                  📄 LICENSE 📄                           ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+<div align="center">
+
+Distributed under the **MIT License**.
+
+</div>
 
 ---
 
 <div align="center">
 
----
-
 ```
-╔═══════════════════════════════════════╗
-║     Made with ❤️ for the WhatsApp     ║
-║          recovery community           ║
-╚═══════════════════════════════════════╝
+╔═══════════════════════════════════════════╗
+║     Made with ❤️ for the WhatsApp        ║
+║          recovery community               ║
+╚═══════════════════════════════════════════╝
 ```
 
 [![Channel](https://img.shields.io/badge/📢_Channel-@execuidorbaru-2CA5E0?style=for-the-badge)](https://t.me/execuidorbaru)
